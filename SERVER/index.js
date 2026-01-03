@@ -33,8 +33,8 @@ app.post("/signup", async (req, res) => {
 app.post("/login", async (req, res) => {
   const { email, password } = req.body;
 
-  let superAdminEmail = "Superadmin@123";
-  let superAdminPassword = "S@123";
+  let superAdminEmail = "superadmin@gmail.com";
+  let superAdminPassword = "Superadmin";
 
   if (!email || !password) {
     res.json({ message: "Please fill all fields!" });
