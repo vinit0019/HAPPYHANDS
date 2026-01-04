@@ -211,6 +211,6 @@ app.post("/deletecart", async (req, res) => {
   return res.json({ message: "Cart deleted successfully!" });
 });
 
-// app.listen(8080, () => {
-//   console.log("server is running...");
-// });
+app.listen(8080, () => {
+  console.log("server is running...");
+});
